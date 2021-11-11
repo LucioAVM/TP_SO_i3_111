@@ -9,3 +9,13 @@ C) git status
    git add . 
    git commit -m "BETA" 
    git push
+d-Si, quedan actualizadas.
+e-BETA no tuvo ningun inconveniente a la hora de realizar el merge.
+f-git pull
+git checkout Monsalbo
+echo Aguirre Laureano 18:10 >> beta.txt
+ echo Configuración IP de Windows Adaptador de Ethernet Ethernet: Sufijo DNS específico para la conexión. . : fibertel.com.ar Vínculo: dirección IPv6 local. . . : fe80::fc3a:8f88:f047:e039%8 Dirección IPv4. . . . . . . . . . . . . . : 192.168.0.17 Máscara de subred . . . . . . . . . . . . : 255.255.255.0 Puerta de enlace predeterminada . . . . . : 192.168.0.1 Adaptador de Ethernet VirtualBox Host-Only Network: Sufijo DNS específico para la conexión. . : Vínculo: dirección IPv6 local. . . : fe80::1dd0:b601:827a:23e5%12 Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1 Máscara de subred . . . . . . . . . . . . : 255.255.255.0 Puerta de enlace predeterminada . . . . . :  >> beta.txt
+git status
+git add beta.txt
+git commit -m i3 commit GAMMA
+git push origin Monsalbo
