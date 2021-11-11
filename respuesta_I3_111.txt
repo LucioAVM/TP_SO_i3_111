@@ -19,3 +19,99 @@ git status
 git add beta.txt
 git commit -m i3 commit GAMMA
 git push origin Monsalbo
+
+G)
+2-
+GAMMA:
+git clone https://github.com/LucioAVM/TP_SO_i3_111.git
+cd TP_SO_i3_111/
+git branch Aguirre
+git checkout Aguirre
+echo "Laureano Aguirre 192.168.0.17 16:55" >> datos.txt
+cp /proc/cpuinfo CPUGamma.txt
+git add .
+git commit -m "i3 gamma"
+git push origin Aguirre
+
+3-
+ALFA:
+git clone https://github.com/LucioAVM/TP_SO_i3_111.git
+git checkout Aguirre
+echo "Caretti Nicolas 192.168.0.172" 17:05 >> datos.txt
+cp /proc/cpuinfo CPUAlfa.txt
+git add .
+git commit -m "i3 ALFA"
+git push origin Aguirre
+
+4-
+BETA:
+git checkout Aguirre
+git pull
+echo "Lucio Monsalbo 192.168.1.41" 17:11 >> datos.txt
+cp /proc/cpuinfo CPUBeta.txt
+git add .
+git commit -m "BETA"
+git push origin Aguirre
+
+5-
+BETA:
+git status
+git checkout main
+git pull
+git merge Aguirre
+git add .
+git commit -m "BETA"
+git push
+
+6-
+BETA:
+git branch Monsalbo
+git checkout Monsalbo
+ifconfig >> beta.txt
+git add beta.txt
+git commit -m "BETA"
+git push origin Monsalbo
+
+7-
+GAMMA:
+git pull
+git checkout Monsalbo
+echo "Aguirre Laureano 18:10" >> beta.txt
+echo "Configuración IP de Windows  
+Adaptador de Ethernet Ethernet:                                                                                                                                                                                                                    
+Sufijo DNS específico para la conexión. . : fibertel.com.ar                                                             
+Vínculo: dirección IPv6 local. . . : fe80::fc3a:8f88:f047:e039%8                                                        
+Dirección IPv4. . . . . . . . . . . . . . : 192.168.0.17                                                                
+Máscara de subred . . . . . . . . . . . . : 255.255.255.0                                                               
+Puerta de enlace predeterminada . . . . . : 192.168.0.1   
+Adaptador de Ethernet VirtualBox Host-Only Network:                                                                                                                                                                                                
+Sufijo DNS específico para la conexión. . :                                                                             
+Vínculo: dirección IPv6 local. . . : fe80::1dd0:b601:827a:23e5%12                                                       
+Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1                                                                
+Máscara de subred . . . . . . . . . . . . : 255.255.255.0                                                               
+Puerta de enlace predeterminada . . . . . :           " >> beta.txt
+git status
+git add beta.txt
+git commit -m "i3 commit GAMMA"
+git push origin Monsalbo
+
+8-
+ALFA:
+git branch Monsalbo
+git checkout Monsalbo
+git pull origin Monsalbo
+echo "Nicolas Caretti 18:52" >> beta.txt
+ipconfig >> beta.txt
+git add beta.txt
+git commit -m "i3 ALFA"
+git push origin Monsalbo
+
+9-
+BETA:
+git status
+git checkout main
+git pull
+git merge Monsalbo
+git add datos.txt
+git commit -m "BETA"
+git push
