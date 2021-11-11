@@ -1,3 +1,6 @@
 Aguirre Laureano 192.168.0.17 16:55
+<<<<<<< HEAD
 Nicolas Caretti 192.168.0.174 17:08
+=======
+>>>>>>> f360de80e53311dd53ebf78e1846ccc40ce15934
 Monsalbo Lucio 192.168.1.41 17:11
