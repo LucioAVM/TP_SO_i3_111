@@ -1,0 +1,11 @@
+A) el master queda con 6 archivos (CPUAlfa.txt, CPUBeta.txt, CPUGamma, README.md, beta.txt, datos.txt)
+
+B) si, ya que tiene estatus de colaborador.
+
+C) git status 
+   git checkout main 
+   git pull 
+   git merge Aguirre 
+   git add . 
+   git commit -m "BETA" 
+   git push
